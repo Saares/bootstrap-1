@@ -42,7 +42,6 @@ nav ul{
 
 nav li{
 	display: inline;
-	margin-right: 80px;
 	background-color: #2E2E2E;
 	padding-right: 35px;
 	padding-left: 35px;
@@ -57,20 +56,96 @@ nav li{
 
 nav{
 	margin-top: 20px;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
 nav a{
-	text-decoration:none;
+	margin-right: 80px;
+	text-decoration: none;
 	color: white;
 	text-shadow: white 0px 0px 4px;
 }
 
-nav li-hover{
-	border: black 3px inset;
+nav li:hover{
+	border: white 3px inset;
 }
 
-nav a:hover:{
+nav a:hover{
 	color: white;
+	text-decoration: none;
 	text-shadow: none;
+	text-shadow: white 0px 0px 3px;
+}
+
+section{
+	width: 600px;
+	float: left;
+}
+
+article{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: white 3px groove;
+	text-align: left;
+	padding: 20px;
+	border-radius: 8px;
+	background-color: #2E2E2E;
+}
+
+article h2{
+	font-size: 16pt;
+	color: white;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+article p{
+	font-size: 12;
+	color: white;
+	padding-bottom: 10px;
+}
+
+aside{
+	text-align: center;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	width: 180px;
+	float: right;
+	color: white;
+	background-color: #2E2E2E;
+	border-radius: 8px;
+	border: white 3px groove;
+}
+
+aside h3{
+	font-size: 16pt;
+	padding-bottom: 10px;
+	padding-top: 25px;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+aside p{
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #E6E6E6;
+}
+
+footer{
+	clear: both;
+	background-color: #2E2E2E;
+	padding: 5px;
+	text-align: center;
+	color: #0B0B61;
+	border-radius: 8px;
+}
+
+footer p{
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: white 0px 0px 4px;;
 }
