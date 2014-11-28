@@ -78,8 +78,8 @@
         <h4 align="center" class="modal-title" id="myModalLabel">Wiki-Suche</h4>
       </div>
       <div class="modal-body">
-        <form action="http://www.wikipedia.org/w/index.php" method="get">
-        <p align="center"><label><input type="search" name="search" placeholder="Nach was suchen Sie?"></label></p>
+        <form action="http://www.wikipedia.org/w/index.php" method="get"><!-- Saares: Label Hinzugefügt -->
+        <p align="center"><label for="wikipedia">Wikipedia</label><input id="wikipedia" type="search" name="search" placeholder="Nach was suchen Sie?"></p>
         <p align="center"><label><input type="checkbox" name="fulltext" value="Search"> Volltextsuche</label></p>
         <p align="center"><input type="submit" value="Los!"></p>
         </form>
